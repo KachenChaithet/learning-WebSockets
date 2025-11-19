@@ -15,5 +15,8 @@
     "cors": "^2.8.5",
     "express": "^5.1.0",
     "ws": "^8.18.3"
+  },
+  "devDependencies": {
+    "@ljharb/tsconfig": "^0.3.2"
   }
 }
