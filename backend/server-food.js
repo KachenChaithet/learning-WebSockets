@@ -9,6 +9,7 @@ app.use(cors({
     origin: "http://localhost:3000"
 }))
 app.use(express.json())
+console.log('love you');
 
 const server = createServer(app)
 const wss = new WebSocketServer({ server })
